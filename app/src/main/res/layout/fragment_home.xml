@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.Fragment_Home">
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center"-->
+        <!--android:text="Subscription Information for Service"-->
+        <!--android:textSize="17dp"-->
+        <!--android:textStyle="italic|bold"-->
+        <!--android:background="@color/white"-->
+        <!--android:paddingBottom="3dp"-->
+        <!--android:paddingTop="3dp"-->
+        <!--android:paddingRight="3dp"-->
+        <!--android:paddingLeft="3dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--/>-->
+
+    <!--&lt;!&ndash;<android.support.v7.widget.RecyclerView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:background="@color/white"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orientation="horizontal"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/recyclersubcriptionslider">&ndash;&gt;-->
+    <!--&lt;!&ndash;</android.support.v7.widget.RecyclerView>&ndash;&gt;-->
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Category"
+        android:layout_marginTop="20dp"
+        android:background="@color/white"
+        android:textSize="18sp"
+        android:textStyle="italic|bold" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_category"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+
+        android:id="@+id/copyright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Copyright 2018. All Rights Reserved"
+        android:textAlignment="center"
+        android:textStyle="italic|bold"
+      />
+</LinearLayout>

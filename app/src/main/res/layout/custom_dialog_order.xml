@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:id="@+id/displayLinearLayout"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+        app:cardElevation="4dp"
+        app:cardCornerRadius="3dp"
+        android:padding="10dp"
+        app:cardUseCompatPadding="true"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <EditText
+            android:padding="10dp"
+
+            android:id="@+id/edit_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter  Your  Home Address"
+            android:layout_marginTop="0dp"
+            android:textSize="25dp"
+            android:textStyle="italic|bold" />
+
+        <EditText
+            android:padding="10dp"
+            android:id="@+id/edit_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Contact"
+            android:layout_below="@+id/edit_address"
+            android:textSize="25dp"
+            android:textStyle="italic|bold" />
+
+            <EditText
+
+                android:id="@+id/edit_city"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your City"
+                android:layout_below="@id/edit_contact"
+                android:textSize="25dp"
+                android:textStyle="italic|bold" />
+
+            <EditText
+
+                android:id="@+id/edit_country"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Your Country"
+                android:layout_below="@id/edit_city"
+                android:textSize="25dp"
+                android:textStyle="italic|bold" />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
