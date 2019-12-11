@@ -131,6 +131,7 @@ public class SignUp extends AppCompatActivity {
 
                                             if (task.isSuccessful())
                                             {
+                                                Toast.makeText(SignUp.this, "Id Created", Toast.LENGTH_SHORT).show();
                                           Intent intent = new Intent(SignUp.this,SignIn.class);
                                                 intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
                                                 startActivity(intent);
